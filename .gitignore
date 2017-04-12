@@ -17,6 +17,16 @@ DerivedData/
 !default.perspectivev3
 xcuserdata/
 
+##新增要忽略发文件
+*.xcuserstate  
+project.xcworkspace  
+xcuserdata  
+UserInterfaceState.xcuserstate  
+project.xcworkspace/  
+xcuserdata/  
+UserInterface.xcuserstate
+
+
 ## Other
 *.moved-aside
 *.xccheckout
