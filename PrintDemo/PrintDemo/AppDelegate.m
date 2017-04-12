@@ -19,6 +19,7 @@
     // Override point for customization after application launch
     
     //我要进行一次 “忽略文件的测试”.
+    //我要进行二次 “忽略文件的测试”.
     return YES;
 }
 
