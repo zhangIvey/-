@@ -20,6 +20,9 @@
 		2C4ACE931E6F00F50015C4A3 /* MVPPresenter.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C4ACE921E6F00F50015C4A3 /* MVPPresenter.m */; };
 		2C4ACE961E6F01070015C4A3 /* MVPView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C4ACE951E6F01070015C4A3 /* MVPView.m */; };
 		2C4ACE991E6F011F0015C4A3 /* MVPPaperModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C4ACE981E6F011F0015C4A3 /* MVPPaperModel.m */; };
+		7519E9F01F21D052001823B9 /* LY_plansView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7519E9EF1F21D052001823B9 /* LY_plansView.m */; };
+		7519E9F31F21D070001823B9 /* LY_plansManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 7519E9F21F21D070001823B9 /* LY_plansManager.m */; };
+		7519E9F61F21D0A0001823B9 /* LY_planModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 7519E9F51F21D0A0001823B9 /* LY_planModel.m */; };
 		7526831A1E8B5D3F00A2F4B5 /* FBKVOController.m in Sources */ = {isa = PBXBuildFile; fileRef = 752683151E8B5D3F00A2F4B5 /* FBKVOController.m */; };
 		7526831B1E8B5D3F00A2F4B5 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 752683161E8B5D3F00A2F4B5 /* Info.plist */; };
 		7526831C1E8B5D3F00A2F4B5 /* NSObject+FBKVOController.m in Sources */ = {isa = PBXBuildFile; fileRef = 752683191E8B5D3F00A2F4B5 /* NSObject+FBKVOController.m */; };
@@ -54,6 +57,12 @@
 		2C4ACE951E6F01070015C4A3 /* MVPView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MVPView.m; path = MVP/MVPView.m; sourceTree = "<group>"; };
 		2C4ACE971E6F011F0015C4A3 /* MVPPaperModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MVPPaperModel.h; path = MVP/MVPPaperModel.h; sourceTree = "<group>"; };
 		2C4ACE981E6F011F0015C4A3 /* MVPPaperModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MVPPaperModel.m; path = MVP/MVPPaperModel.m; sourceTree = "<group>"; };
+		7519E9EE1F21D052001823B9 /* LY_plansView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LY_plansView.h; sourceTree = "<group>"; };
+		7519E9EF1F21D052001823B9 /* LY_plansView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LY_plansView.m; sourceTree = "<group>"; };
+		7519E9F11F21D070001823B9 /* LY_plansManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LY_plansManager.h; sourceTree = "<group>"; };
+		7519E9F21F21D070001823B9 /* LY_plansManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LY_plansManager.m; sourceTree = "<group>"; };
+		7519E9F41F21D0A0001823B9 /* LY_planModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LY_planModel.h; sourceTree = "<group>"; };
+		7519E9F51F21D0A0001823B9 /* LY_planModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LY_planModel.m; sourceTree = "<group>"; };
 		752683141E8B5D3F00A2F4B5 /* FBKVOController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FBKVOController.h; path = MVVM/FBKVOController/FBKVOController.h; sourceTree = "<group>"; };
 		752683151E8B5D3F00A2F4B5 /* FBKVOController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FBKVOController.m; path = MVVM/FBKVOController/FBKVOController.m; sourceTree = "<group>"; };
 		752683161E8B5D3F00A2F4B5 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = MVVM/FBKVOController/Info.plist; sourceTree = "<group>"; };
@@ -100,6 +109,7 @@
 		2C4ACE6B1E6C147B0015C4A3 /* PrintDemo */ = {
 			isa = PBXGroup;
 			children = (
+				7519E9ED1F21CBB4001823B9 /* myFfame */,
 				75396CFC1E8A113E00F28A77 /* MVVM */,
 				2C4ACE8D1E6F00870015C4A3 /* MVP */,
 				2C4ACE831E6C19950015C4A3 /* MVC */,
@@ -150,6 +160,19 @@
 				2C4ACE981E6F011F0015C4A3 /* MVPPaperModel.m */,
 			);
 			name = MVP;
+			sourceTree = "<group>";
+		};
+		7519E9ED1F21CBB4001823B9 /* myFfame */ = {
+			isa = PBXGroup;
+			children = (
+				7519E9EE1F21D052001823B9 /* LY_plansView.h */,
+				7519E9EF1F21D052001823B9 /* LY_plansView.m */,
+				7519E9F11F21D070001823B9 /* LY_plansManager.h */,
+				7519E9F21F21D070001823B9 /* LY_plansManager.m */,
+				7519E9F41F21D0A0001823B9 /* LY_planModel.h */,
+				7519E9F51F21D0A0001823B9 /* LY_planModel.m */,
+			);
+			name = myFfame;
 			sourceTree = "<group>";
 		};
 		752683131E8B5D2600A2F4B5 /* FBKVOController */ = {
@@ -254,11 +277,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				2C4ACE8C1E6C1A1C0015C4A3 /* Paper.m in Sources */,
+				7519E9F31F21D070001823B9 /* LY_plansManager.m in Sources */,
 				2C4ACE861E6C19E70015C4A3 /* MVCController.m in Sources */,
 				75396D021E8A118000F28A77 /* MVVMPaperModel.m in Sources */,
 				2C4ACE741E6C147D0015C4A3 /* ViewController.m in Sources */,
 				7526831C1E8B5D3F00A2F4B5 /* NSObject+FBKVOController.m in Sources */,
 				7526831A1E8B5D3F00A2F4B5 /* FBKVOController.m in Sources */,
+				7519E9F61F21D0A0001823B9 /* LY_planModel.m in Sources */,
 				2C4ACE711E6C147D0015C4A3 /* AppDelegate.m in Sources */,
 				75396CFF1E8A115F00F28A77 /* MVVMViewController.m in Sources */,
 				75396D051E8A119900F28A77 /* MVVMViewModel.m in Sources */,
@@ -269,6 +294,7 @@
 				2C4ACE961E6F01070015C4A3 /* MVPView.m in Sources */,
 				75396D081E8A11B200F28A77 /* MVVMView.m in Sources */,
 				2C4ACE901E6F00AE0015C4A3 /* MVPViewController.m in Sources */,
+				7519E9F01F21D052001823B9 /* LY_plansView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

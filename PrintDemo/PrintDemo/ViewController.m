@@ -23,8 +23,8 @@
     //设置：加载之后2秒后再进行加载
     dispatch_after(dispatch_time(DISPATCH_TIME_NOW, (int64_t)(2 * NSEC_PER_SEC)), dispatch_get_main_queue(), ^{
 //        [self showMVC];
-//        [self showMVP];
-        [self showMVVM];
+        [self showMVP];
+//        [self showMVVM];
     });
 }
 
